@@ -16,6 +16,12 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onAddButtonClicked();
+    void onEditButtonClicked();
+    void onRemoveButtonClicked();
+    void onLoadButtonClicked();
+
 private:
     Ui::MainWindow *ui;
     class Tree* tree;
