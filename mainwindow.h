@@ -18,6 +18,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    class Tree* tree;
 };
 
 #endif // MAINWINDOW_H
